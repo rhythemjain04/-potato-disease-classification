@@ -1,0 +1,46 @@
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+.pycharm/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.env
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+tf_convert/
+saved_models/tf_convert/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ML / TensorFlow
+# =========================
+*.log
+*.tmp
+*.ckpt
+*.tfevents*
+*.pbtxt
+
+# =========================
+# Project-specific
+# =========================
+models.config
+PlantVillage/
